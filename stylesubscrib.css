@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Kanit", sans-serif;
+}
+.box__head{
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box__body{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    gap: 20px;
+}
+.box__body__info{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 35%;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    
+    text-align: center;
+}
+.box__body__info__list{
+    border: 2px white solid;
+    border-radius: 10px; 
+    margin-top: 20px;
+    padding: 15px;
+}
+.box__body__info__list li{
+    list-style: none;
+    text-align: left;
+    padding: 3px;
+}
